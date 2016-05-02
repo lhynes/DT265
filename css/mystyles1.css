@@ -1,0 +1,72 @@
+.contactbutton{
+    left:800px
+}
+
+#footer > .container {
+}
+
+html{
+    height:100%;
+}
+
+body{background-image: url(../images/gold.jpg);
+    height:auto;margin:0;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+}
+
+body.landingpage {text-align:center;					
+       background-size: cover; 
+        /*   #aa00ff;  GRADIENT- For browsers that do not support gradients */
+    /*background: -webkit-linear-gradient(#ffffff, #bb33ee); /* For Safari 5.1 to 6.0 */
+    /*background: -o-linear-gradient(#ffffff, #bb33ee); /* For Opera 11.1 to 12.0 */
+    /*background: -moz-linear-gradient(#ffffff, #bb33ee); /* For Firefox 3.6 to 15 */
+    /*background: linear-gradient(#ffffff, #bb33ee); /* Standard syntax */}
+    
+/*css3*/
+
+
+/*header {                        code taken from  tutorial on http://line25.com/tutorials/how-to-create-a-cool-anaglyphic-text-effect-with-css
+
+	display: inline;
+	position: relative;
+	font: 700% Helvetica, Sans-Serif;
+	letter-spacing: 5px;
+
+	color: rgba(0,0,255,0.5); 
+}
+header:after {
+
+	content: "Welcome";
+
+	position: absolute; left: 5px; top: 1.5px;
+
+	color: rgba(255,0,0,0.5);   
+}*/
+.quote{font: Helvetica, serif;font-size: 20px;}
+}
+.tidy-text{font-size:1.25em;}
+
+.padding{padding-top:3%;}
+
+.input{
+    color:#000;
+}
+
+/*
+footer {
+background-color: black;
+    margin:0 auto;
+    width:100%;
+    display:block;
+    color:antiquewhite;
+    position:fixed;
+    border: 1px solid white;
+    bottom:.5%;
+}
+*/
+/*form{*/
+/*input id="yourname" name="yourname" type="text" style="color:#000"/>*/
+/*				<input type="submit" value="Submit!" style="color:#000"></submit>*/
+}	

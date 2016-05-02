@@ -1,0 +1,730 @@
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Louise Hynes's Custom styles - EDITED CSS
+   ========================================================================== */
+
+/*body and headers*/
+
+
+body > section {       /* this will only effect the first section*/
+    clear: both;
+    padding: 50px 0;
+}
+
+body 
+
+h2,h3{
+    color:#ad1283;
+    margin-bottom:30px;
+    text-transform: uppercase;
+    text-align: center;
+   
+}
+
+h4{
+    color:#ad1283;
+    text-transform: uppercase;
+    text-align: center;
+}
+h2:after,
+h3:after{
+    content:"";
+    height:5px;
+    width:40px;
+    background-color: #ad1283;
+    display:block;
+    margin:0 auto;
+    margin-top:8px;
+}
+
+/* ==========================================================================
+  NAvagation and about sections - - EDITED CSS
+   ========================================================================== */
+.navbar-toggle{
+    background-color: white;
+    color:#ad1283;
+}
+
+.navbar-toggle{
+    background-color: white;
+    color:#ad1283;
+}
+.navbar-default {
+    box-shadow: none;
+    background: rgba(255, 255, 255, 0.3);
+    border:none;
+    min-height: 40px;
+    padding-top: 15px;
+    transition: 1.5s all ease;
+}
+
+.effect{
+    background-color: #5c0a46;
+    min-height: 30px;
+    box-shadow: 0 0 10px black;
+    color:white;
+    padding-top: 0;
+    transition: 1s all ease;
+    
+}
+
+.nav > li > a {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 1.3em;
+    text-shadow: 1px 1px 1px grey;
+    -webkit-text-shadow: 1px 1px 1px grey;
+    -moz-text-shadow: 1px 1px 1px grey;
+}
+
+.nav>li>a:hover,
+.nav>li>a:focus {
+    background-color: transparent;
+}
+
+.jumbotron{
+    color:white;
+    text-align: center;
+    
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ad1283+33,de47ac+73 */
+background: #ad1283; /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover,  #ad1283 33%, #de47ac 73%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover,  #ad1283 33%,#de47ac 73%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center,  #ad1283 33%,#de47ac 73%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ad1283', endColorstr='#de47ac',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+min-height: 700px;
+padding-top:100px 0;
+background: cover;
+    
+}
+
+section#jumbotron h1{
+    font-size:3.5em;
+    color: white; 
+}  
+
+section#jumbotron p{
+    color: white; 
+    font-size:1.5em;
+}  
+
+section#jumbotron h1:after {
+    content:"";
+    height:5px;
+    width:40px;
+    background-color: white;
+    display:block;
+    margin:0 auto;
+    margin-top:8px;
+} 
+
+/* ==========================================================================
+   ABOUT- EDITED CSS
+   ========================================================================== */
+ 
+section#about {
+    background-color: #ec46c0;
+    height:auto;margin:0;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+        
+}
+
+
+
+
+
+.face-circle{
+    width:10%;
+    height:10%;
+    padding-bottom: 10%;
+    background-image: url(../images/face3.png);
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    margin: 0 auto; 
+}
+
+
+section#about .btn-default{
+    align-items: center;
+    text-align: right;
+    font-size:1.4em;
+    border-radius: 20px;
+    padding:5px 50px;
+    color: #ad1283;
+    
+}
+
+section#about p{
+    text-align: center;
+    text-align: justify;
+    
+}
+
+section#about h2.left{
+    text-align: left;
+    
+}
+
+section#about .CVcontainer{
+    align-content: right;
+    padding-right:0;
+    margin-right: 0;
+/*    max-width: ;*/
+    
+    
+}
+
+
+
+/* ==========================================================================
+   Educataion- EDITED CSS
+   ========================================================================== */
+
+.pink-circle{
+    width:100%;
+    padding-bottom: 100%;
+    background-color: #ad1283;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    margin: 0 auto;   
+}
+
+.pink-circle div {
+   float:left;
+    width:100%;
+    padding-top:45%;
+    line-height:1em;
+    margin-top:-0.5em;
+    text-align:center;
+    color:white;
+}
+
+section#education .irish-circle{
+    width:35%;
+    padding-bottom: 35%;
+    background-image: url(../images/Ireland-icon.png);
+    border-radius:45%;
+    -moz-border-radius:45%;
+    -webkit-border-radius:45%;
+    margin: 0 auto;   
+}
+
+#education .french-circle{  
+    width:35%;
+    padding-bottom: 35%;
+    background-image: url(../images/France-icon.png);
+    border-radius:45%;
+    -moz-border-radius:45%;
+    -webkit-border-radius:45%;
+    margin: 0 auto;  
+}
+
+#education .uk-circle{   
+    width:35%;
+    padding-bottom: 35%;
+    background-image: url(../images/United-kingdom-icon.png);
+    border-radius:45%;
+    -moz-border-radius:45%;
+    -webkit-border-radius:45%;
+    margin: 0 auto; 
+}
+
+section#education p{
+    text-align: center;
+    text-align: justify;
+    
+}
+
+/* ==========================================================================
+   Employment- EDITED CSS
+   ========================================================================== */
+section#employment{
+   background-color: #cccccc; 
+    
+}
+.item-feture{
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+section#slider img {
+    margin: 0 auto;
+}
+
+.carousel-caption {    /* changed*/
+    top: 50;
+    bottom: auto;
+}
+
+/* ==========================================================================
+   contact - EDITED CSS
+   ========================================================================== */
+
+
+#form {
+    padding-top: 50px;
+    
+}
+
+section#contact{
+    padding-bottom: 0;
+    background-color: #ad1283;
+
+}
+section#contact h2{
+    text-transform: uppercase;
+    text-align: center;
+    color: white; 
+}
+section#contact h2:after {
+    background-color: white; 
+}
+section#contact h3{
+    text-transform: uppercase;
+    text-align:center;
+    color: white; 
+}
+section#contact h3:after {
+    background-color: white; 
+}
+
+
+section#contact p{
+    text-align: center;
+    color:white;
+    font-size:1.5em;
+    margin-bottom:30px;
+}
+
+section#contact input,
+section#contact textarea{
+    min-height: 50px;
+    margin-bottom:20px;
+    background-color: #f075cf;
+    border:2px solid white;
+    border-radius: 25px;
+    font-family:sans-serif;
+    color: #ffffff;
+    font-size:1.3em;
+}
+
+section#contact textarea{
+    min-height:200px;
+    color:white;  
+}
+
+section#contact input.btn{
+    text-align: center;
+    font-size:1.4em;
+    border-radius: 20px;
+    padding:5px 50px;
+    color: white;
+    
+}
+
+::-webkit-input-placeholder{            /*safarie  and chrome*/
+    color:white!important;
+}
+
+:moz-placeholder{                    /* mozilla firefox*/
+    color:white!important;
+}
+
+::moz-placeholder{               /* older versions mozilla firefox*/
+    color:white!important;
+}
+
+:-ms-input-placeholder{                 /* internet explorerer*/
+    color:white!important;
+}
+
+/*   socail media*/
+
+section#contact ul{
+    width:100%;
+    
+}
+
+
+section#contact li{
+    list-style-type: none;
+    margin-left:auto ;
+    margin-right: auto;
+    text-align:center;
+    padding-left: none;
+    padding-right:35px;
+    
+}
+
+
+/* ==========================================================================
+   contact - EDITED CSS
+   ========================================================================== */
+
+
+footer {
+    background-color: #5c0a46;
+}
+footer p{
+    background-color: #5c0a46;
+    padding: 10px 0;
+    color:white;
+    margin-bottom: 0;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+
+
+
+/* ==========================================================================
+   Media Queries - Using goodle chrome inspector to view the sections that needed editing
+   ========================================================================== */
+@media(max-width: 767px) {
+    .navbar-default .navbar-collapse {
+        border: none;
+    }
+    
+    .navbar-collapse.in,
+    .collapsing {
+        background-color: #5c0a46;
+    }
+    .navbar-default .navbar-toggle:hover {
+        background-color: transparent;
+    }
+    .navbar-default .navbar-toggle:focus {
+        background-color: #5c0a46;
+    }
+     .navbar-default .navbar-toggle:icon-bar {
+        background-color: #fff;
+    }
+    
+    #about .face-circle {
+        width:30%;
+        padding-bottom: 30%;
+    }
+    
+    #about .CVcontainer{
+    align-content: center;
+    padding-bottom :5%;
+    padding-left: 20%;
+/*    max-width: ;*/
+       
+}
+    #education .uk-circle,
+    .french-circle,
+    .irish-circle{
+        width:30%;
+        padding-bottom: 30%;
+    }
+    
+     #employment .pink-circle {
+        width:10%;
+        padding-bottom: 10%;
+    }
+    
+    #employment p {
+        text-align:center;
+        text-align: justify;
+    }
+    
+    
+    
+}
+
+
+@media(max-width: 768px) {
+    
+    .navbar-default .navbar-collapse {
+        border: none;
+    }
+    
+    .navbar-collapse.in,
+    .collapsing {
+        background-color: #5c0a46;
+    }
+    .navbar-default .navbar-toggle:hover {
+        background-color: transparent;
+    }
+    .navbar-default .navbar-toggle:focus {
+        background-color: #5c0a46;
+    }
+     .navbar-default .navbar-toggle:icon-bar {
+        background-color: #fff;
+    }
+    
+    #about .face-circle {
+        width:30%;
+        padding-bottom: 30%;
+    }
+    
+    #about .CVcontainer{
+    align-content: center;
+    padding-bottom :5%;
+    padding-left: 20%;
+/*    max-width: ;*/
+       
+}
+    #education .uk-circle,
+    .french-circle,
+    .irish-circle{
+        width:30%;
+        padding-bottom: 30%;
+    }
+    
+     #employment .pink-circle {
+        width:10%;
+        padding-bottom: 10%;
+    }
+    
+    #employment p {
+        text-align:center;
+        text-align: justify;
+    }
+    
+    
+    
+}
+
+}
+@media(max-width: 992px) {
+    
+    
+    .navbar-default .navbar-collapse {
+        border: none;
+    }
+    
+    .navbar-collapse.in,
+    .collapsing {
+        background-color: #5c0a46;
+    }
+    .navbar-default .navbar-toggle:hover {
+        background-color: transparent;
+    }
+    .navbar-default .navbar-toggle:focus {
+        background-color: #5c0a46;
+    }
+     .navbar-default .navbar-toggle:icon-bar {
+        background-color: #fff;
+    }
+    
+    #about .face-circle {
+        width:30%;
+        padding-bottom: 30%;
+    }
+    
+    #about .CVcontainer{
+    align-content: center;
+    padding-bottom :5%;
+    padding-left: 20%;
+/*    max-width: ;*/
+       
+}
+    #education .uk-circle,
+    .french-circle,
+    .irish-circle{
+        width:30%;
+        padding-bottom: 30%;
+    }
+    
+     #employment .pink-circle {
+        width:10%;
+        padding-bottom: 10%;
+    }
+    
+    #employment p {
+        text-align:center;
+        text-align: justify;
+    }
+    
+    
+    
+}
+
+}
+@media(max-width: 1200px) {}
+
+
+
+
+
+
+
+@media only screen and (min-width: 35em) {
+
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
